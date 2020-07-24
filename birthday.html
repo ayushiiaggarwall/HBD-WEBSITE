@@ -4,10 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links to access bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- link to attack css file -->
     <link rel="stylesheet" href="bday.css">
+    <!-- using web fonts -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Lobster&family=Monoton&family=Pacifico&family=Rowdies:wght@300;400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Dancing+Script:wght@600&family=Lobster&family=Monoton&family=Pacifico&family=Rowdies:wght@300;400&display=swap"
         rel="stylesheet">
+
     <title>Document</title>
 </head>
 
@@ -43,7 +50,7 @@
 
     <section id="home" class='center'>
         <h1 class='center'>
-            <span id="animation_text">HAPPY <br> BIRTHDAY</span>
+            <span id="animation_text">HAPPY <br> BIRTHDAY <br> MALIKAAAAA <span>
         </h1>
 
         <!-- <div>
@@ -51,10 +58,12 @@
         </div> -->
 
     </section>
-
+    <!-- 
     <section id="Photo_page">
+        --
         <div id="photo_album" class="center">
-            <p>Refreshing Old Memories :)</p> 
+            <h2>Refreshing Old Memories :)</h2> 
+            <p>With every photo in album, there is a flashback of memory and nostalgia reloaded!</p>
         <div class="collage" class='center'>
             <img src="friends_1.jpeg" alt="1" id="one">
             <img src="friends_2.jpeg" alt="2" id="two">
@@ -63,19 +72,97 @@
             <img src="friends_5.jpeg" alt="5" id="five">
             <img src="friends_6.jpeg" alt="6" id="six">
         </div>
-        </div>
+        </div> -->
+    <section>
+        <div class="container center" id="photo_album">
+            <h2>Refreshing Old Memories :)</h2>
+            <p>With every photo in album, there is a flashback of memory and nostalgia reloaded!</p>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="1.jpeg" alt="1" id="one">
+                        <div class="carousel-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="2.jpeg" alt="Chicago" id="two">
+                        <div class="carousel-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="3.jpeg" alt="New York" id="three">
+                        <div class="carousel-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="4.jpeg" alt="New York" id="four">
+                        <div class="carousel-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="5.jpeg" alt="New York" id="five">
+                        <div class="carousel-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="6.jpeg" alt="New York" id="six">
+                        <div class="carousel-caption">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
     </section>
-    
+
     <section id=suprise_page>
-    <div id="surprise" class="center">
-        <p> Hey, There is a surprise for you!!! </p>
-    </div>
-    <div class="center">
-        <button  id='surprise_btn' type="button" onclick="document.getElementById('my_img').src='hug.gif'">
-            Click Me!
-        </button>
-        <img src="surprise.jpeg" alt="surprise" id="my_img">
-    </div>
+        <div id="surprise" class="center">
+            <p> Hey, There is a surprise for you!!! </p>
+        </div>
+        <div class="center">
+            <button id='surprise_btn' type="button" onclick="document.getElementById('my_img').src='hug.gif'">
+                Click Me!
+            </button>
+            <img src="surprise.jpeg" alt="surprise" id="my_img">
+        </div>
     </section>
 
 </body>
