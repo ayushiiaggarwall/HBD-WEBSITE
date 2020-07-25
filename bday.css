@@ -27,7 +27,7 @@ html{
 
 #navbar ul li{
     list-style: none;
-    font-family: 'Lobster', cursive ;
+    font-family: 'Arvo', serif;
     font-size: 1.89rem;
     padding: 20px;
 } 
@@ -40,6 +40,7 @@ html{
 #navbar div ul li a:hover{
     border-radius: 10px;
     background-color: rgb(252, 134, 154);
+    font-weight: bold;
 }
 
 /* Home page */
@@ -211,7 +212,7 @@ to{
         background-color: rgb(255, 86, 255);
         border-radius: 20px;
         padding: 20px;
-        font-family: 'Rowdies', cursive; 
+        font-family: 'Arvo', serif;
         font-size: 2.8rem;
         float: left;
         margin: 30px;
@@ -258,6 +259,9 @@ to{
     to{
         font-size: 50px;
     }
+    }
+    html{
+        font-size:5px;
     }
 }
     
