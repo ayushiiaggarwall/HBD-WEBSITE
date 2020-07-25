@@ -200,7 +200,7 @@ to{
 }
 
 #surprise_txt {
-    color: rgb(211, 43, 71);
+    color: rgb(209, 22, 162);
     font-size: 3rem;
     font-family: 'Source Serif Pro', serif;
     text-align: center;
@@ -262,6 +262,27 @@ to{
     }
     html{
         font-size:5px;
+        font-family: 'Source Serif Pro', serif;
+    }
+    #navbar ul li{
+        font-family: 'Libre Baskerville', serif;  
+        font-size: .5rem;
+        padding: 20px;
+    } 
+    #photo_album h2{
+        font-size: 2rem;
+    }
+    
+    #photo_album p{
+        font-size: 1rem; 
+    }
+    #surprise h2{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 2rem;
+    }
+    #surprise_txt {
+        font-size: 1rem;
+        font-family: 'Source Serif Pro', serif;
     }
 }
     
