@@ -23,18 +23,20 @@ html{
 #navbar ul{
     display: flex;
     justify-content: flex-end;
+    padding: 10px;
 }
 
 #navbar ul li{
     list-style: none;
     font-family: 'Arvo', serif;
     font-size: 1.89rem;
-    padding: 20px;
+    padding: 0px 20px;
 } 
 
 #navbar div ul li a{
     text-decoration: none;
     color: rgb(175, 5, 110);
+    padding: 10px;
 }
 
 #navbar div ul li a:hover{
@@ -59,7 +61,7 @@ html{
     color: rgb(1099, 54, 143);
 }
 
-/* For homapage background */
+/* For homepage background */
 
 #home::before{
     content:"";
